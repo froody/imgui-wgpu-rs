@@ -492,6 +492,7 @@ impl Renderer {
                 compilation_options: Default::default()
             }),
             multiview: None,
+            cache: Default::default(),
         });
 
         let mut renderer = Self {
